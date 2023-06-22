@@ -1,5 +1,18 @@
 {
-    "users":[],
-    "albums":[],
-    "photos":[]
+  "users": [
+    {
+      "name": "Eleanor Beier",
+      "id": 1
+    },
+    {
+      "name": "Ms. Nichole Gibson",
+      "id": 2
+    },
+    {
+      "name": "Nadine Crooks",
+      "id": 3
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
