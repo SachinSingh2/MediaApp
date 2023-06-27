@@ -27,7 +27,7 @@ export default function UserListItem({ users }) {
 
   return (
 
-      <ExpandablePanel header={header}> <AlbumList user={users}/> </ExpandablePanel>
+      <ExpandablePanel header={header}> <AlbumList users={users}/> </ExpandablePanel>
 
   );
 }

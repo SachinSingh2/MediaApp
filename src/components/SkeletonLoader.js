@@ -1,7 +1,7 @@
 import React from 'react'
 import classnames from 'classnames'
 
-export default function SkeletonLoader({times , className}) {
+ function SkeletonLoader({times , className}) {
 
     const outer = classnames(
         'relative',
@@ -40,3 +40,5 @@ export default function SkeletonLoader({times , className}) {
 
   return boxes
 }
+
+export default SkeletonLoader
